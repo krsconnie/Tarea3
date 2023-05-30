@@ -5,20 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04eee33c-5323-4e51-a3c1-e8721f29261b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Comprador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Deposito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Dulce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Expendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda1000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda1500.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda500.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NoHayProductoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PagoIncorrectoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PagoInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Snickers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Super8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QU4Je4mirccGQPBqT84wpEBbPw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -33,7 +56,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/coni/Tarea3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685394760287</updated>
       <workItem from="1685394761364" duration="927000" />
+      <workItem from="1685409883085" duration="1321000" />
     </task>
     <servers />
   </component>
@@ -65,7 +91,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
+          <line>73</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
