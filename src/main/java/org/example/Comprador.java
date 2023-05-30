@@ -19,10 +19,10 @@ public class Comprador {
     /**
      * Constructor de comprador
      * @param m moneda con la que se comprará
-     * @param CualProducto que escoge que tipo de producto ( que tipo de Bebida o Dulce)
+     * @param productoTipo tipo de producto que se escoge (bebida o dulce)
      * @param maquina el expendedor en el que se compra
      */
-    public Comprador(Moneda m, int CualProducto, Expendedor maquina) throws PagoIncorrectoException{
+    public Comprador(Moneda m, Expendedor.ProductoTipo productoTipo, Expendedor maquina) throws PagoIncorrectoException{
         vuelto = 0;
 
         Producto paquete;
@@ -30,7 +30,7 @@ public class Comprador {
             throw new PagoIncorrectoException("No se recibió el pago");
         }
         try {
-            paquete = maquina.comprarProducto(m,CualProducto);
+            paquete = maquina.comprarProducto(m, productoTipo);
 
             while (true) {
                 Moneda devuelve = maquina.getVuelto();
